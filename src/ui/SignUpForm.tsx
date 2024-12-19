@@ -82,7 +82,7 @@ const SignUpForm: React.FC<SignInFormProps> = ({ onSubmit }) => {
       </div>
       <Link
         href="/signin"
-        className="text-sm w-full pl-1/2 text-gray-500 hover:text-gray-700 mb-4"
+        className="text-sm w-full pl-1/2 text-indigo-600 hover:text-gray-700 mb-4"
       >
         Already have an account?
       </Link>

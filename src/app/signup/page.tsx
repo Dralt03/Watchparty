@@ -7,7 +7,7 @@ const page: React.FC = () => {
     console.log(email, password, username);
   };
   return (
-    <div className="flex items-center justify-center min-h-screen bg-neutral-200">
+    <div className="flex items-center justify-center min-h-screen bg-indigo-100">
       <SignUpForm onSubmit={handleSignUp} />
     </div>
   );
